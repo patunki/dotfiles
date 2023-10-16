@@ -1,3 +1,4 @@
 # dotfiles
 My dotfiles
-![ksnip_20231017-024212](https://github.com/patunki/dotfiles/assets/96471980/1cad94a3-2624-4280-bd17-d70626a0d453)
+
+![first rice](https://github.com/patunki/dotfiles/assets/96471980/cbfb1358-ed24-4b08-937c-fcc227a1a922)
