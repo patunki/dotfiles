@@ -2,4 +2,5 @@
 My dotfiles
 
 
-![rice2](https://github.com/patunki/dotfiles/assets/96471980/18ed9f90-7972-41dd-bdaf-3ea53926cfde)
+
+![rice 3](https://github.com/patunki/dotfiles/assets/96471980/25ee13b4-b9d7-4f42-9d71-6b34514744e5)
