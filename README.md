@@ -1,4 +1,5 @@
 # dotfiles
 My dotfiles
 
-![rice](https://github.com/patunki/dotfiles/assets/96471980/1c232103-6478-4b8f-aefc-ebdcb5ebdb48)
+
+![rice2](https://github.com/patunki/dotfiles/assets/96471980/18ed9f90-7972-41dd-bdaf-3ea53926cfde)
