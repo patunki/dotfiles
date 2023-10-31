@@ -3,4 +3,4 @@ My dotfiles
 
 
 
-![rice 3](https://github.com/patunki/dotfiles/assets/96471980/25ee13b4-b9d7-4f42-9d71-6b34514744e5)
+![rice4](https://github.com/patunki/dotfiles/assets/96471980/e799199d-28e5-42a0-8954-216bc87b86a8)
