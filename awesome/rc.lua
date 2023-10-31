@@ -46,7 +46,6 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-
 -- This is used later as the default terminal and editor to run.
 terminal = "alacritty"
 editor = os.getenv("EDITOR") or "vim"
@@ -231,25 +230,41 @@ root.buttons(gears.table.join(
 globalkeys = gears.table.join(
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
               {description="show help", group="awesome"}),
-    awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
-              {description = "view previous", group = "tag"}),
-    awful.key({ modkey,           }, "Right",  awful.tag.viewnext,
-              {description = "view next", group = "tag"}),
+    --awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
+       --       {description = "view previous", group = "tag"}),
+   -- awful.key({ modkey,           }, "Right",  awful.tag.viewnext,
+     --         {description = "view next", group = "tag"}),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
               {description = "go back", group = "tag"}),
 
-    awful.key({ modkey,           }, "j",
-        function ()
-            awful.client.focus.byidx( 1)
-        end,
-        {description = "focus next by index", group = "client"}
-    ),
-    awful.key({ modkey,           }, "k",
-        function ()
-            awful.client.focus.byidx(-1)
-        end,
-        {description = "focus previous by index", group = "client"}
-    ),
+	awful.key({"Mod4"}, "Left", function()
+	  awful.client.focus.bydirection("left")
+	end, {description = "Focus left", group = "client"}),
+
+	awful.key({"Mod4"}, "Right", function()
+	  awful.client.focus.bydirection("right")
+	end, {description = "Focus right", group = "client"}),
+	
+	awful.key({"Mod4"}, "Up", function()
+	  awful.client.focus.bydirection("up")
+	end, {description = "Focus up", group = "client"}),
+	
+	awful.key({"Mod4"}, "Down", function()
+	  awful.client.focus.bydirection("down")
+	end, {description = "Focus down", group = "client"}),
+
+    --awful.key({ modkey,           }, "j",
+      --  function ()
+        --    awful.client.focus.byidx( 1)
+       -- end,
+       -- {description = "focus next by index", group = "client"}
+   -- ),
+   -- awful.key({ modkey,           }, "k",
+     --   function ()
+       --     awful.client.focus.byidx(-1)
+       -- end,
+       -- {description = "focus previous by index", group = "client"}
+   -- ),
     awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
               {description = "show main menu", group = "awesome"}),
 
@@ -501,7 +516,7 @@ awful.rules.rules = {
 beautiful.useless_gap = 5
 beautiful.gap_single_client = true
 beautiful.border_width = 2
-beautiful.border_focus = "#FFFFFF"
+beautiful.border_focus = "#1e90ff"
 
 -- {{{ Signals
 -- Signal function to execute when a new client appears.
@@ -572,4 +587,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 awful.spawn.with_shell("picom")
 awful.spawn.with_shell("sh ~/.config/polybar/launch.sh")
-awful.spawn.with_shell("feh --bg-fill ~/.config/awesome/wp3.jpg")
+awful.spawn.with_shell("feh --bg-fill ~/.config/awesome/wall.png")
