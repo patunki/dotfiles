@@ -6,7 +6,7 @@ sudo pacman -S xorg-server xorg-xinit xterm awesome polybar alacritty gtk3 neofe
 
 mkdir ~/.config
 
-echo “exec awesome” > ~/.xinitrc
+echo exec awesome > ~/.xinitrc
 
 cp -r alacritty ~/.config/
 cp -r awesome ~/.config/
