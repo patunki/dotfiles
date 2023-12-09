@@ -45,3 +45,9 @@ MOD+{arrow keys} : Switch focused window.
 MOD+F : Fullscreen toggle
 CTRL+MOD+Q : Close Awesome.
 ```
+
+## Notice!
+**If this doesn't work or you experience weird gitching** go to the bottom of the 'rc.lua' script in .config/awesome and comment out the line:
+```
+awful.spawn.with_shell("picom")
+```
