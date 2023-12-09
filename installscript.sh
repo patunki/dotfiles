@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xorg-server xorg-xinit xterm awesome polybar picom alacritty gtk3 neofetch rofi epapirus-icon-theme ttf-jetbrains-mono-nerd
+sudo pacman -S xorg-server xorg-xinit xterm awesome polybar picom alacritty gtk3 neofetch rofi epapirus-icon-theme ttf-jetbrains-mono-nerd feh
 
 mkdir ~/.config
 
