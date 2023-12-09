@@ -585,6 +585,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --
 --autostart apps
 
-awful.spawn.with_shell("picom")
+--awful.spawn.with_shell("picom")
 awful.spawn.with_shell("sh ~/.config/polybar/launch.sh")
 awful.spawn.with_shell("feh --bg-fill ~/.config/awesome/wall.png")
