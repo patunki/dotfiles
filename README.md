@@ -9,6 +9,7 @@ To create this look and workflow I use Awesome as the window manager, Polybar fo
 **If you have previous configs for any of the programs listed, back them up now. The script will replace those files in your .conig directory** <br> <br>
 Requiriments: 
 ```
+arch linux
 sudo
 git
 yay
