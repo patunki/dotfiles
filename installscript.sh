@@ -13,6 +13,7 @@ cp -r awesome ~/.config/
 cp -r picom ~/.config/
 cp -r polybar ~/.config/
 cp -r rofi ~/.config/
+mv bashrc ~/.bashrc
 
 sudo chmod +x .config/polybar/launch.sh
 
