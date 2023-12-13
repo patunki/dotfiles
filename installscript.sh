@@ -16,4 +16,6 @@ cp -r rofi ~/.config/
 
 sudo chmod +x .config/polybar/launch.sh
 
+cd
+
 startx
