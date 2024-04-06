@@ -2,7 +2,7 @@
 
 yay -S picom-git catppuccin-gtk-theme-mocha --noconfirm
 
-sudo pacman -S xorg-server xorg-xinit awesome polybar alacritty gtk3 neofetch rofi epapirus-icon-theme ttf-jetbrains-mono-nerd feh
+sudo pacman -S xorg-server xorg-xinit awesome polybar alacritty gtk3 neofetch rofi lxappearance-gtk3 epapirus-icon-theme ttf-jetbrains-mono-nerd feh
 
 mkdir ~/.config
 
