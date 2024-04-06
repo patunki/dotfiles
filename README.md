@@ -28,7 +28,7 @@ cd dotfiles
 sudo chmod +x installscript.sh
 ./installscript.sh
 ```
-Press enter whenever prompted. You can also do copy the config files manually if you wish but this script will do it all for you.
+Press enter whenever prompted. You can also copy the config files manually if you wish but this script will do it all for you.
 <br><br>
 After the script has finished running you should be greeted by a desktop similar to the one in the picture. I'm assuming you want to use your own greeter so **for now you need to run this command each time you reboot or close Awesome**
 ```
@@ -48,7 +48,7 @@ CTRL+MOD+Q : Close Awesome.
 ```
 
 ## Notice!
-**If this doesn't work or you experience weird gitching** go to the bottom of the 'rc.lua' script in .config/awesome and comment out the line:
+**If this doesn't work or you experience weird glitching** go to the bottom of the 'rc.lua' script in .config/awesome and comment out the line:
 ```
 awful.spawn.with_shell("picom")
 ```
